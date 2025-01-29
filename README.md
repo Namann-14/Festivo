@@ -1,14 +1,10 @@
 # Festivo
 
-![logo_concept_for_Festivo_minimal-removebg-preview](https://github.com/user-attachments/assets/a3e0bf97-9d54-4bbc-8522-9d959264f8a9)
-
 Festivo is revolutionizing event ticketing with blockchain transparency, secure transactions, and NeoX-powered efficiency.
 
 ## About Festivo
 
 Festivo is a cutting-edge decentralized event ticketing platform built on the NeoX blockchain. We're reimagining the traditional ticketing experience by leveraging blockchain technology to ensure transparency, security, and instant transactions. Our smart contract-powered system offers event organizers and attendees a seamless, trustless environment for creating, selling, and managing event tickets.
-
-![image](https://github.com/user-attachments/assets/4639d204-a795-46b0-830c-f78b6c420d7b)
 
 ## Key Features
 
