@@ -33,11 +33,6 @@ Festivo is a cutting-edge decentralized event ticketing platform built on the Ne
 - No long waiting periods for payouts
 - Transparent fee structure
 
-### 🌐 NeoX Powered
-- Leveraging the speed and efficiency of the NeoX blockchain
-- Low transaction fees and fast confirmation times
-- Seamless integration with other Neo ecosystem projects
-
 ## How It Works
 
 1. **Connect Wallet**: Users connect their NeoX-compatible wallet to the platform.
