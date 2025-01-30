@@ -95,7 +95,7 @@ export default function CreateEvent() {
   };
 
   return (
-    <div className="container mx-auto px-4 py-12 mt-8">
+    <div className="container mx-auto px-4 py-8">
       <motion.div 
         className="max-w-2xl mx-auto"
         variants={containerVariants}

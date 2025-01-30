@@ -37,9 +37,15 @@ contract Festivo is Ownable, ReentrancyGuard {
     event UserRegistered(address indexed userAddress, string username);
     event UserProfileUpdated(address indexed userAddress, string username, string bio, string linkedin, string github);
 
-    constructor() Ownable(msg.sender) {}
+    constructor() Ownable() {}
 
-    function createEvent(string memory _name, string memory _description, uint256 _date, uint256 _price, uint256 _totalTickets) external onlyOwner {
+    function createEvent(
+        string memory _name,
+        string memory _description,
+        uint256 _date,
+        uint256 _price,
+        uint256 _totalTickets
+    ) external onlyOwner {
         require(_date > block.timestamp, "Event date must be in the future");
         require(_totalTickets > 0, "Total tickets must be greater than zero");
 
@@ -108,5 +114,14 @@ contract Festivo is Ownable, ReentrancyGuard {
 
     function withdrawFunds() external onlyOwner {
         payable(owner()).transfer(address(this).balance);
+    }
+
+    // ✅ Function to return all events
+    function getAllEvents() external view returns (Event[] memory) {
+        Event[] memory allEvents = new Event[](nextEventId - 1);
+        for (uint256 i = 1; i < nextEventId; i++) {
+            allEvents[i - 1] = events[i];
+        }
+        return allEvents;
     }
 }

@@ -1,4 +1,4 @@
-export const CONTRACT_ADDRESS = '0x860B9F615F784C118BC2fCd86c006E7FC8C6A15d';
+export const CONTRACT_ADDRESS = '0xFC02F1C5eFAC118b707EE0e3470dD9cAd36595c1';
 
 export const CONTRACT_ABI = [
 	{
@@ -429,7 +429,7 @@ export const CONTRACT_ABI = [
 						"type": "bool"
 					}
 				],
-				"internalType": "struct Festivo.Event",
+				"internalType": "struct KryptoTix.Event",
 				"name": "",
 				"type": "tuple"
 			}
@@ -475,7 +475,7 @@ export const CONTRACT_ABI = [
 						"type": "bool"
 					}
 				],
-				"internalType": "struct Festivo.UserProfile",
+				"internalType": "struct KryptoTix.UserProfile",
 				"name": "",
 				"type": "tuple"
 			}

@@ -11,7 +11,7 @@ import Image from 'next/image';
 interface Event {
   id: number;
   name: string;
-  description: string;
+  description: string;x
   date: number;
   price: ethers.BigNumber;
   totalTickets: number;
